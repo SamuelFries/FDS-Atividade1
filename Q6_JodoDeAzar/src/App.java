@@ -15,7 +15,5 @@ public class App {
 
         System.out.println("D20: " + d20ComHistorico.getValor());
         System.out.println("Histórico D20: " + d20ComHistorico.getHistorico());
-        
-        
     }
 }

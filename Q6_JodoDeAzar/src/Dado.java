@@ -1,7 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
+import java.util.ArrayList;  
+import java.util.List;       
+import java.util.Random;    
 // Classe base do dado
 public class Dado {
     protected int lados;

@@ -1,10 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class DadoComHistorico extends Dado {
     private final List<Integer> historico;
 
     public DadoComHistorico(Dado dado) {
         super(dado.lados);
-        this.valorJogada = dado.getValor();
         this.historico = new ArrayList<>();
+        this.setValor(dado.getValor()); // Assuming setValor is a method in Dado to set valorJogada
     }
 
     @Override
