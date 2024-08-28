@@ -10,7 +10,8 @@ public class VisualizadorDeMedia {
     public void defineValores(List<Integer> valores){
         this.valores = valores;
     }
-
+    
+    
     public void acrescentaValor(Integer valor){
         this.valores.add(valor);
     }
